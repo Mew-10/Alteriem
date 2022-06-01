@@ -8,10 +8,31 @@
   "item.alteriem.steel_shovel": "Steel Shovel",
   "item.alteriem.lava_stew": "Lava Stew",
 
+  "item.alteriem.ruby": "Ruby",
+
+  "item.alteriem.steel_helmet": "Steel Helmet",
+  "item.alteriem.steel_chestplate": "Steel Chestplate",
+  "item.alteriem.steel_leggings": "Steel Leggings",
+  "item.alteriem.steel_boots": "Steel Boots",
+
   "block.alteriem.steel_block": "Steel Block",
   "block.alteriem.steel_ore": "Steel Ore",
   "block.alteriem.deepslate_steel_ore": "Deepslate Steel Ore",
   "block.alteriem.raw_steel_block": "Raw Steel Block",
+
+  "block.alteriem.ruby_block": "Ruby Block",
+  "block.alteriem.ruby_ore": "Ruby Ore",
+  "block.alteriem.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "item.alteriem.ruby_sword": "Ruby Sword",
+  "item.alteriem.ruby_axe": "Ruby Axe",
+  "item.alteriem.ruby_pickaxe": "Ruby Pickaxe",
+  "item.alteriem.ruby_hoe": "Ruby Hoe",
+  "item.alteriem.ruby_shovel": "Ruby Shovel",
+
+  "item.alteriem.ruby_helmet": "Ruby Helmet",
+  "item.alteriem.ruby_chestplate": "Ruby Chestplate",
+  "item.alteriem.ruby_leggings": "Ruby Leggings",
+  "item.alteriem.ruby_boots": "Ruby Boots",
 
   "itemGroup.alteriem": "Alteriem"
 }
