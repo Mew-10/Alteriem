@@ -2,6 +2,7 @@ package net.benjamin.alteriem.item;
 
 import net.benjamin.alteriem.AlteriemMod;
 import net.benjamin.alteriem.item.custom.ModArmorItem;
+import net.benjamin.alteriem.item.custom.ModArmorItemRuby;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -83,19 +84,19 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
 
     public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
-            () -> new ModArmorItem(ModArmorMaterials.STEEL, EquipmentSlot.HEAD,
+            () -> new ModArmorItemRuby(ModArmorMaterials.RUBY, EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
 
     public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.STEEL, EquipmentSlot.CHEST,
+            () -> new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.CHEST,
                     new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
 
     public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings",
-            () -> new ArmorItem(ModArmorMaterials.STEEL, EquipmentSlot.LEGS,
+            () -> new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.LEGS,
                     new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
 
     public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
-            () -> new ArmorItem(ModArmorMaterials.STEEL, EquipmentSlot.FEET,
+            () -> new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
 
 
