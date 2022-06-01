@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "alteriem:block/zinc_block"}
+  }
+}

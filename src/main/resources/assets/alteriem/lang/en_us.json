@@ -37,12 +37,19 @@
 
   "item.alteriem.zinc": "Zinc",
   "item.alteriem.raw_zinc": "Raw Zinc",
+  "block.alteriem.zinc_block": "Zinc Block",
+  "block.alteriem.zinc_ore": "Zinc Ore",
+  "block.alteriem.deepslate_zinc_ore": "Deepslate Zinc Ore",
+  "block.alteriem.raw_zinc_block": "Raw Zinc Block",
+
   "item.alteriem.brass": "Slab Of Brass",
   "item.alteriem.brass_sword": "Brass Sword",
   "item.alteriem.brass_axe": "Brass Axe",
   "item.alteriem.brass_pickaxe": "Brass Pickaxe",
   "item.alteriem.brass_hoe": "Brass Hoe",
   "item.alteriem.brass_shovel": "Brass Shovel",
+
+  "item.alteriem.wyvnite": "Wyvnite",
 
   "itemGroup.alteriem": "Alteriem"
 }
