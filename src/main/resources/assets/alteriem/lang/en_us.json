@@ -34,5 +34,15 @@
   "item.alteriem.ruby_leggings": "Ruby Leggings",
   "item.alteriem.ruby_boots": "Ruby Boots",
 
+
+  "item.alteriem.zinc": "Zinc",
+  "item.alteriem.raw_zinc": "Raw Zinc",
+  "item.alteriem.brass": "Slab Of Brass",
+  "item.alteriem.brass_sword": "Brass Sword",
+  "item.alteriem.brass_axe": "Brass Axe",
+  "item.alteriem.brass_pickaxe": "Brass Pickaxe",
+  "item.alteriem.brass_hoe": "Brass Hoe",
+  "item.alteriem.brass_shovel": "Brass Shovel",
+
   "itemGroup.alteriem": "Alteriem"
 }

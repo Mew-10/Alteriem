@@ -100,7 +100,35 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
 
 
+    public static final RegistryObject<Item> ZINC = ITEMS.register("zinc",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
 
+    public static final RegistryObject<Item> RAW_ZINC = ITEMS.register("raw_zinc",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
+
+
+    public static final RegistryObject<Item> BRASS = ITEMS.register("brass",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
+
+    public static final RegistryObject<Item> BRASS_SWORD = ITEMS.register("ruby_sword",
+            () -> new SwordItem(ModTiers.BRASS, 4, 4f,
+                    new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
+
+    public static final RegistryObject<Item> BRASS_PICKAXE = ITEMS.register("ruby_pickaxe",
+            () -> new PickaxeItem(ModTiers.BRASS, 2, 2f,
+                    new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
+
+    public static final RegistryObject<Item> BRASS_SHOVEL = ITEMS.register("ruby_shovel",
+            () -> new ShovelItem(ModTiers.BRASS, 1, 2f,
+                    new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
+
+    public static final RegistryObject<Item> BRASS_AXE = ITEMS.register("ruby_axe",
+            () -> new AxeItem(ModTiers.BRASS, 5, 1f,
+                    new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
+
+    public static final RegistryObject<Item> BRASS_HOE = ITEMS.register("ruby_hoe",
+            () -> new HoeItem(ModTiers.BRASS, 1, 1f,
+                    new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
 
 
 

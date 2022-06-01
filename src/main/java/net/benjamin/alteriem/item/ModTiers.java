@@ -14,4 +14,8 @@ public class ModTiers {
     public static final ForgeTier RUBY = new ForgeTier(3, 1300, 1.7f,
             4f, 26, BlockTags.NEEDS_IRON_TOOL,
             () -> Ingredient.of(ModItems.RUBY.get()));
+
+    public static final ForgeTier BRASS = new ForgeTier(2, 1600, 3f,
+            2f, 56, BlockTags.NEEDS_IRON_TOOL,
+            () -> Ingredient.of(ModItems.BRASS.get()));
 }
