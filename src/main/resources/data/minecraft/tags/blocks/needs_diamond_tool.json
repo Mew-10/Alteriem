@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-
+    "alteriem:ruby_ore",
+    "alteriem:ruby_block",
+    "alteriem:deepslate_ruby_ore"
   ]
 }

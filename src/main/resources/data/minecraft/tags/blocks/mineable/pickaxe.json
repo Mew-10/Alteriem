@@ -4,6 +4,9 @@
     "alteriem:steel_ore",
     "alteriem:steel_block",
     "alteriem:deepslate_steel_ore",
-    "alteriem:raw_steel_block"
+    "alteriem:raw_steel_block",
+    "alteriem:ruby_ore",
+    "alteriem:ruby_block",
+    "alteriem:deepslate_ruby_ore"
   ]
 }
