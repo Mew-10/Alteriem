@@ -7,6 +7,12 @@
     "alteriem:raw_steel_block",
     "alteriem:ruby_ore",
     "alteriem:ruby_block",
-    "alteriem:deepslate_ruby_ore"
+    "alteriem:deepslate_ruby_ore",
+    "alteriem:zinc_ore",
+    "alteriem:zinc_block",
+    "alteriem:deepslate_zinc_ore",
+    "alteriem:raw_zinc_block",
+    "alteriem:wyvnite_block",
+    "alteriem:wyvnite_ore"
   ]
 }
