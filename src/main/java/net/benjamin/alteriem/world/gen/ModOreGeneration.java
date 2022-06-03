@@ -21,5 +21,9 @@ public class ModOreGeneration {
         base.add(() -> ModPlacedFeatures.STEEL_ORE_PLACED);
         base.add(() -> ModPlacedFeatures.RUBY_ORE_PLACED);
         base.add(() -> ModPlacedFeatures.ZINC_ORE_PLACED);
+
+        if(event.getCategory() == Biome.BiomeCategory.THEEND) {
+            base.add(() -> ModPlacedFeatures.WYVNITE_ORE_PLACED);
+        }
     }
 }

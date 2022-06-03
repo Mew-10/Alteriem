@@ -50,6 +50,18 @@
   "item.alteriem.brass_shovel": "Brass Shovel",
 
   "item.alteriem.wyvnite": "Wyvnite",
+  "block.alteriem.wyvnite_block": "Wyvnite Block",
+  "block.alteriem.wyvnite_ore": "Wyvnite Ore",
+  "item.alteriem.wyvnite_sword": "Wyvnite Sword",
+  "item.alteriem.wyvnite_axe": "Wyvnite Axe",
+  "item.alteriem.wyvnite_pickaxe": "Wyvnite Pickaxe",
+  "item.alteriem.wyvnite_hoe": "Wyvnite Hoe",
+  "item.alteriem.wyvnite_shovel": "Wyvnite Shovel",
+
+  "item.alteriem.wyvnite_helmet": "Wyvnite Helmet",
+  "item.alteriem.wyvnite_chestplate": "Wyvnite Chestplate",
+  "item.alteriem.wyvnite_leggings": "Wyvnite Leggings",
+  "item.alteriem.wyvnite_boots": "Wyvnite Boots",
 
   "itemGroup.alteriem": "Alteriem"
 }

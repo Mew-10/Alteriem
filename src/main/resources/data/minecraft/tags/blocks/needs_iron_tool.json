@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "alteriem:steel_ore",
+    "alteriem:steel_block",
+    "alteriem:deepslate_steel_ore",
+    "alteriem:raw_steel_block"
+  ]
+}

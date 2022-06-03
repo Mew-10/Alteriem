@@ -19,8 +19,7 @@ public class ModPlacedFeatures {
             ModConfiguredFeature.ZINC_ORE.placed(ModOrePlacement.commonOrePlacement(7, // VeinsPerChunk
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80)))));
 
-    public static final PlacedFeature WYVNITE_ORE_PLACED = PlacementUtils.register("wyvnite_ore_placed",
-            ModConfiguredFeature.END_WYVNITE_ORES.placed(ModOrePlacement.commonOrePlacement(7, // VeinsPerChunk
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80)))));
-
+    public static final PlacedFeature WYVNITE_ORE_PLACED = PlacementUtils.register("end_citrine_ore_placed",
+            ModConfiguredFeature.WYVNITE_ORE.placed(ModOrePlacement.commonOrePlacement(7, // VeinsPerChunk
+                    HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80)))));
 }
