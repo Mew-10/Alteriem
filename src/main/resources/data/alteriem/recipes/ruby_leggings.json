@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "R": {
+      "item": "alteriem:ruby"
+    }
+  },
+  "result": {
+    "item": "alteriem:ruby_leggings"
+  }
+}

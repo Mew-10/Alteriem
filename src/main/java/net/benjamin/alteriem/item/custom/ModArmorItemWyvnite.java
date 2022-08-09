@@ -13,13 +13,13 @@ import net.minecraft.world.level.Level;
 
 import java.util.Map;
 
-public class ModArmorItemRuby extends ArmorItem {
+public class ModArmorItemWyvnite extends ArmorItem {
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())
-                    .put(ModArmorMaterials.RUBY,
-                            new MobEffectInstance(MobEffects.ABSORPTION, 200, 1)).build();
+                    .put(ModArmorMaterials.WYVNITE,
+                            new MobEffectInstance(MobEffects.HEALTH_BOOST, 200, 4)).build();
 
-    public ModArmorItemRuby(ArmorMaterial material, EquipmentSlot slot, Properties settings) {
+    public ModArmorItemWyvnite(ArmorMaterial material, EquipmentSlot slot, Properties settings) {
         super(material, slot, settings);
     }
 

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "alteriem:ruby"
+    }
+  },
+  "result": {
+    "item": "alteriem:ruby_pickaxe"
+  }
+}

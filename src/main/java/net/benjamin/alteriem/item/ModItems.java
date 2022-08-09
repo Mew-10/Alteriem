@@ -1,8 +1,7 @@
 package net.benjamin.alteriem.item;
 
 import net.benjamin.alteriem.AlteriemMod;
-import net.benjamin.alteriem.item.custom.ModArmorItem;
-import net.benjamin.alteriem.item.custom.ModArmorItemRuby;
+import net.benjamin.alteriem.item.custom.*;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -134,27 +133,27 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
 
     public static final RegistryObject<Item> WYVNITE_SWORD = ITEMS.register("wyvnite_sword",
-            () -> new SwordItem(ModTiers.BRASS, 8, 7f,
+            () -> new SwordItem(ModTiers.WYVNITE, 8, 7f,
                     new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
 
     public static final RegistryObject<Item> WYVNITE_PICKAXE = ITEMS.register("wyvnite_pickaxe",
-            () -> new PickaxeItem(ModTiers.BRASS, 6, 3f,
+            () -> new PickaxeItem(ModTiers.WYVNITE, 6, 3f,
                     new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
 
     public static final RegistryObject<Item> WYVNITE_SHOVEL = ITEMS.register("wyvnite_shovel",
-            () -> new ShovelItem(ModTiers.BRASS, 5, 4f,
+            () -> new ShovelItem(ModTiers.WYVNITE, 5, 4f,
                     new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
 
     public static final RegistryObject<Item> WYVNITE_AXE = ITEMS.register("wyvnite_axe",
-            () -> new AxeItem(ModTiers.BRASS, 10, 4f,
+            () -> new AxeItem(ModTiers.WYVNITE, 10, 4f,
                     new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
 
     public static final RegistryObject<Item> WYVNITE_HOE = ITEMS.register("wyvnite_hoe",
-            () -> new HoeItem(ModTiers.BRASS, 5, 5f,
+            () -> new HoeItem(ModTiers.WYVNITE, 5, 5f,
                     new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
 
     public static final RegistryObject<Item> WYVNITE_HELMET = ITEMS.register("wyvnite_helmet",
-            () -> new ModArmorItemRuby(ModArmorMaterials.WYVNITE, EquipmentSlot.HEAD,
+            () -> new ModArmorItemWyvnite(ModArmorMaterials.WYVNITE, EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
 
     public static final RegistryObject<Item> WYVNITE_CHESTPLATE = ITEMS.register("wyvnite_chestplate",

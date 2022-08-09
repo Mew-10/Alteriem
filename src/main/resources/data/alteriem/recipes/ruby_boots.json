@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R R",
+    "R R"
+  ],
+  "key": {
+    "X": {
+      "item": "alteriem:ruby"
+    }
+  },
+  "result": {
+    "item": "alteriem:ruby_boots"
+  }
+}

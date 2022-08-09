@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZZZ",
+    "ZZZ",
+    "ZZZ"
+  ],
+  "key": {
+    "Z": {
+      "item": "alteriem:zinc"
+    }
+  },
+  "result": {
+    "item": "alteriem:zinc_block"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "alteriem:ruby"
+    }
+  },
+  "result": {
+    "item": "alteriem:ruby_block"
+  }
+}
