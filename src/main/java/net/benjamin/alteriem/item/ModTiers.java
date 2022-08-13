@@ -7,19 +7,19 @@ import net.minecraftforge.common.ForgeTier;
 public class ModTiers {
     public class modTiers {
     }
-    public static final ForgeTier STEEL = new ForgeTier(2, 1400, 1.5f,
+    public static final ForgeTier STEEL = new ForgeTier(2, 1400, 4.5f,
             3f, 22, BlockTags.NEEDS_IRON_TOOL,
             () -> Ingredient.of(ModItems.STEEL_INGOT.get()));
 
-    public static final ForgeTier RUBY = new ForgeTier(3, 1300, 1.7f,
+    public static final ForgeTier RUBY = new ForgeTier(3, 1300, 5.78f,
             4f, 26, BlockTags.NEEDS_IRON_TOOL,
             () -> Ingredient.of(ModItems.RUBY.get()));
 
-    public static final ForgeTier BRASS = new ForgeTier(2, 1600, 3f,
+    public static final ForgeTier BRASS = new ForgeTier(2, 1600, 4.6f,
             2f, 56, BlockTags.NEEDS_IRON_TOOL,
             () -> Ingredient.of(ModItems.BRASS.get()));
 
-    public static final ForgeTier WYVNITE = new ForgeTier(5, 2000, 6f,
+    public static final ForgeTier WYVNITE = new ForgeTier(5, 2000, 10f,
             9f, 100, BlockTags.NEEDS_IRON_TOOL,
             () -> Ingredient.of(ModItems.WYVNITE.get()));
 }
