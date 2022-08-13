@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alteriem:wyvnite_block"
+    }
+  ],
+  "result": {
+    "item": "alteriem:wyvnite",
+    "count": 9
+  }
+}

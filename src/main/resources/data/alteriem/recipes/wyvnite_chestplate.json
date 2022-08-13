@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W W",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "alteriem:wyvnite"
+    }
+  },
+  "result": {
+    "item": "alteriem:wyvnite_chestplate"
+  }
+}

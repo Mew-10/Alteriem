@@ -7,9 +7,6 @@
   "item.alteriem.steel_hoe": "Steel Hoe",
   "item.alteriem.steel_shovel": "Steel Shovel",
   "item.alteriem.lava_stew": "Lava Stew",
-  "item.alteriem.shardoflightning": "Shard of lightning",
-  "item.alteriem.spearti": "Spear",
-  "item.alteriem.spear_spear": "Steel Spear",
 
 
   "item.alteriem.ruby": "Ruby",
@@ -45,6 +42,7 @@
   "block.alteriem.zinc_ore": "Zinc Ore",
   "block.alteriem.deepslate_zinc_ore": "Deepslate Zinc Ore",
   "block.alteriem.raw_zinc_block": "Raw Zinc Block",
+  "item.alteriem.zinc_crown": "Zinc Crown",
 
   "item.alteriem.brass": "Slab Of Brass",
   "item.alteriem.brass_sword": "Brass Sword",

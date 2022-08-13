@@ -27,6 +27,13 @@ public enum ModArmorMaterials implements ArmorMaterial {
     WYVNITE("wyvnite", 78, new int[]{6, 10, 15, 7}, 66,
             SoundEvents.ARMOR_EQUIP_DIAMOND, 5.0F, 4.0F, () -> {
         return Ingredient.of(ModItems.RUBY.get());
+    }),
+
+
+
+    ZINC("zinc", 78, new int[]{4, 10, 15, 7}, 66,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 5.0F, 4.0F, () -> {
+        return Ingredient.of(ModItems.RUBY.get());
     });
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};

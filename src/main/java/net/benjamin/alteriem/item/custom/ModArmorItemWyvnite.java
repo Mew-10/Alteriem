@@ -17,7 +17,7 @@ public class ModArmorItemWyvnite extends ArmorItem {
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())
                     .put(ModArmorMaterials.WYVNITE,
-                            new MobEffectInstance(MobEffects.HEALTH_BOOST, 200, 4)).build();
+                            new MobEffectInstance(MobEffects.HEALTH_BOOST, 10000000, 4)).build();
 
     public ModArmorItemWyvnite(ArmorMaterial material, EquipmentSlot slot, Properties settings) {
         super(material, slot, settings);

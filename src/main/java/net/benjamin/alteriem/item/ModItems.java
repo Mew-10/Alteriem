@@ -168,6 +168,10 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.WYVNITE, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
 
+    public static final RegistryObject<Item> ZINC_CROWN = ITEMS.register("zinc_crown",
+            () -> new ArmorItem(ModArmorMaterials.ZINC, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTabs.ALTERIEM)));
+
 
 
 

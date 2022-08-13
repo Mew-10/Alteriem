@@ -34,7 +34,7 @@ displayName="Alteriem" #mandatory
 authors="Tert" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-This Is Alteriem It Adds Brass Ruby And Steel And Zinc
+This Is Alteriem It Adds Brass Ruby Steel Zinc Wyvnite
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.alteriem]] #optional
